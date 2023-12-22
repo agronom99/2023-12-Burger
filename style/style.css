@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "normalise.css";
 @import 'font.css';
 @import 'default.css';
-@import "header.css"
+@import "header.css";
+@import "navigation.css";
