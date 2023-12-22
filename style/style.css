@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'font.css';
+@import 'default.css';
+@import "header.css"
