@@ -1,0 +1,32 @@
+.order {
+  position: relative;
+}
+
+.order__wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.16);
+  border-radius: 12px;
+  padding: 16px 10px;
+}
+
+.order__wrap-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order_open.order__wrap-title{
+    margin-bottom: 8px;
+}
+
+.order__wrap_list{
+    display: none;
+}
+
+.order_open.order__wrap_list{
+    display: block;
+}
