@@ -100,28 +100,18 @@
 }
 
 @media (min-width: 1360px) {
-    .header {
-        background-size: 2880px;
-        padding-bottom: 63px;
-        margin-bottom: 40px;
-      }
+  
       .header__container {
         max-width: calc(784px + var(--padding-container) * 2);
       }
       .header__title-container{
-        padding-top: 46px;
         padding-left: 346px;
-        min-height: 326px;
       }
-    
-      .header__title{
-        font-size: 50px;
-        margin-bottom: 52px;
-      }
+}
 
-      .header__appeal{
-        font-size: 16px;
-        line-height: 22px;
-      }
+@media (min-width: 1920px) {
+.header{
+  background-size: 4660px;
+}
 }
 
