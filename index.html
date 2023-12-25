@@ -51,7 +51,7 @@
   <body class="">
     <header class="header">
       <div class="container header__container">
-          <a href="https://freelancehunt.com/freelancer/agronom99.html?from=shield&r=63YJg" target="_blank"><img src="https://freelancehunt.com/shields/display/id/1403567/type/rating?style=flat&amp;lang=uk" alt="Freelancehunt — простий та чесний фриланс"></a>
+          
           <svg
             class="header__logo"
             viewBox="0 0 199 44"
@@ -126,8 +126,8 @@
       </nav>
 
       <section class="catalog">
-        <div class="container">
-          <div class="catalog__order order order_open">
+        <div class="container catalog__container">
+          <div class="catalog__order order ">
             <section class="order__wrapper">
               <div class="order__wrap-title" tabindex="0" role="button">
                 <h2 class="order__title">Корзина</h2>
@@ -137,16 +137,15 @@
               <div class="order__wrap_list">
                 <ul class="order__list">
                   <li class="order__item">
-                    <img src="/img/burger1.jpg" alt="burger" />
+                    <img src="/img/burger1.jpg" alt="burger" class="order__image" />
                     <div class="order__product">
                       <h3 class="order__product-title">Супер сирний</h3>
                       <p class="order__product-weight">512г.</p>
-                      <p class="order__product-weight">
-                        <span class="order__product-price">350</span>
+                      <p class="order__product-price">350
                         <span class="currency">грн.</span>
                       </p>
                     </div>
-                    <div class="order__product-count">
+                    <div class="count">
                       <button class="count__minus">-</button>
                       <p class="count__amount">1</p>
                       <button class="count__plus">+</button>
@@ -154,16 +153,15 @@
                     </div>
                   </li>
                   <li class="order__item">
-                    <img src="/img/fri1.jpg" alt="free" />
+                    <img src="/img/fri1.jpg" alt="free" class="order__image"/>
                     <div class="order__product">
                       <h3 class="order__product-title">Картошка фрі</h3>
                       <p class="order__product-weight">180г.</p>
-                      <p class="order__product-weight">
-                        <span class="order__product-price">120</span>
+                      <p class="order__product-price">120
                         <span class="currency">грн.</span>
                       </p>
                     </div>
-                    <div class="order__product-count">
+                    <div class="count">
                       <button class="count__minus">-</button>
                       <p class="count__amount">2</p>
                       <button class="count__plus">+</button>
@@ -171,16 +169,15 @@
                     </div>
                   </li>
                   <li class="order__item">
-                    <img src="/img/hot-dog1.jpg" alt="hot-dog" />
+                    <img src="/img/hot-dog1.jpg" alt="hot-dog" class="order__image"/>
                     <div class="order__product">
                       <h3 class="order__product-title">Хот-дог</h3>
                       <p class="order__product-weight">245г.</p>
-                      <p class="order__product-weight">
-                        <span class="order__product-price">100</span>
+                      <p class="order__product-price">100
                         <span class="currency">грн.</span>
                       </p>
                     </div>
-                    <div class="order__product-count">
+                    <div class="count">
                       <button class="count__minus">-</button>
                       <p class="count__amount">1</p>
                       <button class="count__plus">+</button>
@@ -210,14 +207,71 @@
             <h2 class="catalog__title">Гамбургери</h2>
             <div class="catalog__wrap_list">
               <ul class="catalog__list">
+               
                 <li class="catalog__item">
                   <article class="product" >
                     <img src="/img/photo.jpg" alt="бургер" class="product__image">
                     <p class="product__price">250<span class="currency">грн.</span></p>
                     <h3 class="product__title">
-                      <button class="product__detail"></button>
+                      <button class="product__detail">Мясна бомба</button>
                     </h3>
                     <p class="product__weight">520г.</p>
+                    <button class="product__add" type="button">Додати</button>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product" >
+                    <img src="/img/photo (1).jpg" alt="бургер" class="product__image">
+                    <p class="product__price">250<span class="currency">грн.</span></p>
+                    <h3 class="product__title">
+                      <button class="product__detail">Супер сирний</button>
+                    </h3>
+                    <p class="product__weight">520г.</p>
+                    <button class="product__add" type="button">Додати</button>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product" >
+                    <img src="/img/photo (2).jpg" alt="бургер" class="product__image">
+                    <p class="product__price">250<span class="currency">грн.</span></p>
+                    <h3 class="product__title">
+                      <button class="product__detail">Сирний</button>
+                    </h3>
+                    <p class="product__weight">520г.</p>
+                    <button class="product__add" type="button">Додати</button>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product" >
+                    <img src="/img/photo (3).jpg" alt="бургер" class="product__image">
+                    <p class="product__price">250<span class="currency">грн.</span></p>
+                    <h3 class="product__title">
+                      <button class="product__detail">Тяжкий удар</button>
+                    </h3>
+                    <p class="product__weight">520г.</p>
+                    <button class="product__add" type="button">Додати</button>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product" >
+                    <img src="/img/photo (4).jpg" alt="бургер" class="product__image">
+                    <p class="product__price">250<span class="currency">грн.</span></p>
+                    <h3 class="product__title">
+                      <button class="product__detail">Класика</button>
+                    </h3>
+                    <p class="product__weight">520г.</p>
+                    <button class="product__add" type="button">Додати</button>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="product" >
+                    <img src="/img/burger1.jpg" alt="бургер" class="product__image">
+                    <p class="product__price">250<span class="currency">грн.</span></p>
+                    <h3 class="product__title">
+                      <button class="product__detail">Італійський</button>
+                    </h3>
+                    <p class="product__weight">520г.</p>
+                    <button class="product__add" type="button">Додати</button>
                   </article>
                 </li>
               </ul>
