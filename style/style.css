@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @import "normalise.css";
-@import 'font.css';
-@import 'default.css';
+@import "font.css";
+@import "default.css";
 @import "header.css";
 @import "navigation.css";
 @import "catalog.css";
@@ -14,7 +14,4 @@
 @import "footer.css";
 @import "modal.css";
 @import "modal-product.css";
-
-
-
-
+@import "ingredients.css";

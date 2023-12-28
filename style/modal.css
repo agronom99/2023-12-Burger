@@ -30,3 +30,9 @@
     outline-color: #ff7020;
     border-radius: 3px;
   }
+
+  @media (max-width: 480px){
+    .modal{
+      padding: 10px;
+    }
+  }
