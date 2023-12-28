@@ -394,12 +394,15 @@
         </div>
       </div>
     </footer>
-    <div class="modal modal_product">
-      <div class="modal__main modal-product"></div>
-      <div class="madal-product__container">
+    <div class="modal modal_product modal_open">
+      <div class="modal__main modal-product">
         <h2 class="modal-product__title">Мясна бомба</h2>
         <div class="modal-product__content">
-          <img src="" alt="" class="modal-product__image" />
+          <img
+                      src="./img/photo.jpg"
+                      alt="бургер"
+                      class="modal-product__image"
+                    />
           <p class="modal-product__description">
             Супер м'ясне задоволення! Велика нарізана котлета, виготовлена ​​зі
             свіжого м'яса з яловичини, підкоряє вас своєю соковитості, а хрусткі
@@ -420,7 +423,7 @@
           <div class="modal-product__footer">
             <div class="modal-product__add">
               <div class="modal-product__btn">Добавити</div>
-              <div class=" modal-product__count count">
+              <div class="modal-product__count count">
                 <button class="count__minus">-</button>
                 <p class="count__amount">1</p>
                 <button class="count__plus">+</button>
@@ -429,10 +432,38 @@
             <p class="modal__product__price">
               250<span class="currency">грн.</span>
             </p>
-
           </div>
         </div>
+        <button class="modal__close">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="5.0752"
+              y="5.28249"
+              width="1"
+              height="20"
+              transform="rotate(-45 5.0752 5.28249)"
+            />
+            <rect
+              x="5.78223"
+              y="19.4246"
+              width="1"
+              height="20"
+              transform="rotate(-135 5.78223 19.4246)"
+            />
+          </svg>
+        </button>
       </div>
+     
+      <div class="madal-product__container">
+        
+      </div>
+     
     </div>
     <div class="modal"></div>
   </body>
