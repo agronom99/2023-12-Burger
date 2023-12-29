@@ -399,10 +399,10 @@
         <h2 class="modal-product__title">Мясна бомба</h2>
         <div class="modal-product__content">
           <img
-                      src="./img/photo.jpg"
-                      alt="бургер"
-                      class="modal-product__image"
-                    />
+            src="./img/photo.jpg"
+            alt="бургер"
+            class="modal-product__image"
+          />
           <p class="modal-product__description">
             Супер м'ясне задоволення! Велика нарізана котлета, виготовлена ​​зі
             свіжого м'яса з яловичини, підкоряє вас своєю соковитості, а хрусткі
@@ -459,12 +459,97 @@
           </svg>
         </button>
       </div>
-     
-      <div class="madal-product__container">
-        
-      </div>
-     
+
+      <div class="madal-product__container"></div>
     </div>
-    <div class="modal"></div>
+    <div class="modal modal-delivery modal_open">
+      <div class="modal_main modal_delivery">
+        <div class="modal-delivery__container">
+          <h2 class="modal-delivery__title">Доставка</h2>
+          <form action="" class="modal-delivery__form" id="delivery">
+            <fieldset class="modal-delivery__fieldset" disabled>
+              <input
+                class="modal-delivery__input"
+                type="text"
+                name="name"
+                placeholder="Ваше ім'я"
+              />
+              <input
+                class="modal-delivery__input"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+              />
+            </fieldset>
+
+            <fieldset class="modal-delivery__fieldset" disabled>
+              <label class="modal-delivery__label">
+                <input
+                  class="modal-delivery__radio"
+                  type="radio"
+                  name="format" value="pickup" checked
+                />Самовивоз</label
+              >
+              <label class="modal-delivery__label">
+                <input
+                  class="modal-delivery__radio"
+                  type="radio"
+                  name="format" value="delivery"
+                />Доставка</label
+              >
+            </fieldset>
+
+            <fieldset class="modal-delivery__fieldset" disabled>
+              <input
+                class="modal-delivery__input"
+                type="text"
+                name="address"
+                placeholder="Вулиця, дом, квартира"
+              />
+              <input
+                class="modal-delivery__input modal-delivery__input_half"
+                type="number"
+                name="floor"
+                placeholder="Поверх"
+              />
+              <input
+                class="modal-delivery__input modal-delivery__input_half"
+                type="number"
+                name="intercom"
+                placeholder="Домофон"
+              />
+            </fieldset>
+            <button class="modal-delivery__submit" type="submit" form="delivery">reset</button>
+          </form>
+          <button class="modal-delivery__submit" type="submit" form="delivery">Оформити</button>
+
+
+        </div>
+        <button class="modal__close" type="button">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="5.0752"
+              y="5.28249"
+              width="1"
+              height="20"
+              transform="rotate(-45 5.0752 5.28249)"
+            />
+            <rect
+              x="5.78223"
+              y="19.4246"
+              width="1"
+              height="20"
+              transform="rotate(-135 5.78223 19.4246)"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
   </body>
 </html>
